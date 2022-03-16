@@ -18,7 +18,7 @@
     - https://www.researchgate.net/publication/326430786_Projeto_e_Desenvolvimento_de_um_Time_de_Futebol_de_Robos_Moveis_de_Quatro_Rodas
 
 ## Observacoes:
-   <img alt="imagem do raciocinio" src="./public/images/raciocinio_x_y_bola.jpeg"></img>
+   <img alt="imagem do raciocinio" src="./public/images/raciocinio_x_y_bola_e_robo.jpeg"></img>
    ### Quando o robo está atrás da bola:
       - temos a velocidade máxima de 0.92 m/s, no entanto, essa velocidade nao serve para as componentes x e y, logo devemos descobrir vx e vy, mas como?
       - simples, pela fórmula da componente: Vx = V * cos(∆) e Vy = V * sen(∆)
