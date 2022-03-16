@@ -1,2 +1,3 @@
 
-float pos(float, float);
+float posX(float);
+float posY(float);

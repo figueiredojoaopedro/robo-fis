@@ -28,7 +28,7 @@ int main (void) {
         scanf("%f", &pos_y);
     }
 
-    printf("%f", pos(pos_x,pos_y));
-    
+    printf("Posicao X: %f\n Posicao Y: %f", posX(pos_x), posY(pos_y));
+
     return 0;
 }
