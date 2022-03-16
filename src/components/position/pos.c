@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include "pos.h"
 
-int main (void) {
+float pos(float x_initial, float y_initial){
     
-    return 0;
 }
