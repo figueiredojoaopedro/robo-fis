@@ -32,7 +32,7 @@ float pos(float roboX[], float roboY[], float cos[], float sin[], float vetorBol
     roboX[i+1] = roboX[i] + (cos[i] * 0.04); //vai aumentando a posicao do robo em X
     roboY[i+1] = roboY[i] + (sin[i] * 0.05); //vai aumentando a posicao do robo em Y
 
-    if (roboX[i] >= vetorBolaX[i] - 0.075 && roboX[i] <= vetorBolaX[i] + 0.075 && roboY[i] >= vetorBolaY[i] - 0.075 && roboY[i] <= vetorBolaY[i] + 0.075){ // o raio de interceptação do robo é 0.075 metros
+    if (roboX[i] >= vetorBolaX[i] - 0.1 && roboX[i] <= vetorBolaX[i] + 0.1 && roboY[i] >= vetorBolaY[i] - 0.1 && roboY[i] <= vetorBolaY[i] + 0.1){ // o raio de interceptação do robo é 0.075 metros + 0.025 metros de raio da bola
 
     // print de quando o robo encontrar a bola
       printf ("Autobots!!! A bola foi encontrada com sucesso!!\n");

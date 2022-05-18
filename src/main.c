@@ -5,8 +5,7 @@
 #include "./components/posicao/pos.h"
 
 
-int main(void)
-{
+int main(void){
   // leitura do tempo no arquivo t.txt
   FILE *tempo;
 	float vetorTempoBola[1001];
@@ -74,7 +73,8 @@ int main(void)
 
 
   // chamando a funcao posicao
-
   pos(roboX, roboY, cos, sin, vetorBolaY, vetorBolaX, vetorTempoBola);
+  // informacoes cinematicas importantes
+  
   return 0;
 }

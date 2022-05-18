@@ -4,12 +4,97 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--style sheet-->
+    <link rel="stylesheet" href="./components/stylesheet/stylesheet.css">
     <title>Projeto Ora Bolas</title>
 </head>
 <body>
-    <h1>Gráficos gerado pelo programa:</h1>
+    <header>
+        <nav>
+            <h1>Projeto Ora Bolas</h1>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div>
+                <h2>Gráficos gerados pelo programa:</h2>
+            </div>
+            <div>
+                <h2>Gráfico das trajetórias da bola e do robô em um plano xy, até o ponto de interceptação:</h2>
+                <canvas>
 
-    <h2>Gráfico das trajetórias da bola e do robô em um plano xy, até o ponto de interceptação;</h2>
-    <h2>Gráfico das coordenadas 𝑥 e 𝑦 da posição da bola e do robô em função do tempo 𝑡 até o instante de interceptação;</h2>
+                </canvas>
+            </div>
+            <div>
+                <h2>Gráfico das coordenadas x e x da posição da bola e do robô em função do tempo t até o instante de interceptação:</h2>
+                <canvas>
+
+                </canvas>
+            </div>
+            <div>
+                <h2>Gráfico dos componentes vx e vy da velocidade da bola e do robô em função do tempo t até o instante de interceptação:</h2>
+                <canvas>
+
+                </canvas>
+            </div>
+            <div>
+                <h2>Gráfico dos componentes ax e ay da aceleração da bola e do robô em função do tempo t até o instante de interceptação:</h2>
+                <canvas>
+
+                </canvas>
+            </div>
+            <div>
+                <h2> Gráfico da distância relativa d entre o robô e a bola como função do tempo t até o instante de interceptação;</h2>
+                <canvas>
+
+                </canvas>
+            </div>
+        </section>
+
+        <section>
+            <h2>Informações cinemáticas relevantes:</h2>
+            <div>
+                <h3>Dados sobre o robo:</h3>
+                <p>Aceleração = <span id="a_robo"></span></p>
+                <p>Velocidade máxima= <span id="v_robo"></span></p>
+                <p>Massa: <span id="massa_robo"></span></p>
+
+                <h3>Posição da bola no momento da interceptação:</h3>
+                <p>x = <span id="x_bola"></span></p>
+                <p>y = <span id="y_bola"></span></p>
+                <h3>Posição do robo no momento da interceptação:</h3>
+                <p>x = <span id="x_robo"></span></p>
+                <p>y = <span id="y_robo"></span></p>
+                <h3>Velocidade da bola no momento da interceptação:</h3>
+                <p>vx = <span id="vx_bola"></span></p>
+                <p>vy = <span id="vy_bola"></span></p>
+                <h3>Velocidade do robo no momento da interceptação:</h3>
+                <p>vx = <span id="vx_bola"></span></p>
+                <p>vy = <span id="vy_bola"></span></p>
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+        <h3>
+            Trabalho feito por:
+        </h3>
+        <ul>
+            <li>
+                <h4>João Pedro de Figueiredo</h4>
+                <a href="#">Github</a>
+            </li>
+            <li>
+                <h4>Thiago Ayres Kimura</h4>
+                <a href="#">Github</a>
+            </li>
+            <li>
+                <h4>Caio Augusto Arnoni</h4>
+                <a href="#">Github</a>
+            </li>
+        </ul>
+    </footer>
+    <!--Script que mostra os gráficos:-->
+    <script src="./components/scripts/script.js"></script>
 </body>
 </html>
