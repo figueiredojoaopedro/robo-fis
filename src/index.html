@@ -10,8 +10,12 @@
 </head>
 <body>
     <header>
-        <nav class="navbar" >
+        <nav class="navbar">
             <h1 class="navbar-title">Projeto Ora Bolas</h1>
+            <ul class="navbar-list">
+                <li><a href="#">Gráficos gerados</a></li>
+                <li><a href="#">Informações cinemáticas</a></li>
+            </ul>
         </nav>
     </header>
     <main>
@@ -40,7 +44,7 @@
                 </div>
                 <div class="graficos">
                     <h2 class="graf-subtitles">Gráfico dos componentes ax e ay da aceleração da bola e do robô em função do tempo t até o instante de interceptação:</h2>
-                    <canvas>
+                    <canvas class="graf-canvas">
 
                     </canvas>
                 </div>
@@ -53,26 +57,111 @@
             </div>
         </section>
 
-        <section>
-            <h2>Informações cinemáticas relevantes:</h2>
-            <div>
-                <h3>Dados sobre o robo:</h3>
-                <p>Aceleração = <span id="a_robo"></span></p>
-                <p>Velocidade máxima= <span id="v_robo"></span></p>
-                <p>Massa: <span id="massa_robo"></span></p>
-
-                <h3>Posição da bola no momento da interceptação:</h3>
-                <p>x = <span id="x_bola"></span></p>
-                <p>y = <span id="y_bola"></span></p>
-                <h3>Posição do robo no momento da interceptação:</h3>
-                <p>x = <span id="x_robo"></span></p>
-                <p>y = <span id="y_robo"></span></p>
-                <h3>Velocidade da bola no momento da interceptação:</h3>
-                <p>vx = <span id="vx_bola"></span></p>
-                <p>vy = <span id="vy_bola"></span></p>
-                <h3>Velocidade do robo no momento da interceptação:</h3>
-                <p>vx = <span id="vx_bola"></span></p>
-                <p>vy = <span id="vy_bola"></span></p>
+        <section class="graf-section">
+            <h2 class="graf-title">Informações cinemáticas relevantes:</h2>
+            <div class="infos">
+                <div>
+                    <h3>Dados sobre o robo:</h3>
+                    <p>Aceleração = <span id="a_robo">
+                        <input type="text">
+                    </span></p>
+                    <p>Velocidade máxima = <span id="v_robo">
+                        <input type="text">
+                    </span></p>
+                    <p>Massa = <span id="massa_robo">
+                        <input type="text">
+                    </span></p>
+                </div>
+                <div>
+                    <h3>Posição da bola no momento da interceptação:</h3>
+                    <p>x = <span id="x_bola">
+                        <input type="text">
+                    </span></p>
+                    <p>y = <span id="y_bola">
+                        <input type="text">
+                    </span></p>
+                </div>
+                <div>
+                    <h3>Posição do robo no momento da interceptação:</h3>
+                    <p>x = <span id="x_robo">
+                        <input type="text">
+                    </span></p>
+                    <p>y = <span id="y_robo">
+                        <input type="text">
+                    </span></p>
+                </div>
+                <div>
+                    <h3>Velocidade da bola no momento da interceptação:</h3>
+                    <p>vx = <span id="vx_bola">
+                        <input type="text">
+                    </span></p>
+                    <p>vy = <span id="vy_bola">
+                        <input type="text">
+                    </span></p>
+                    <p>v = <span id="vy_bola">
+                        <input type="text">
+                    </span></p>
+                </div>
+                <div>
+                    <h3>Velocidade do robo no momento da interceptação:</h3>
+                    <p>vx = <span id="vx_bola">
+                        <input type="text">
+                    </span></p>
+                    <p>vy = <span id="vy_bola">
+                        <input type="text">
+                    </span></p>
+                    <p>v = <span id="vy_bola">
+                        <input type="text">
+                    </span></p>
+                </div>
+                <div>
+                    <h3>Aceleração da bola no momento da interceptação:</h3>
+                    <p>ax = <span id="ax_bola">
+                        <input type="text">
+                    </span></p>
+                    <p>ay = <span id="ay_bola">
+                        <input type="text">
+                    </span></p>
+                    <p>a = <span id="ay_bola">
+                        <input type="text">
+                    </span></p>
+                </div>
+                <div>
+                    <h3>Aceleração do robo no momento da interceptação:</h3>
+                    <p>ax = <span id="ax_bola">
+                        <input type="text">
+                    </span></p>
+                    <p>ay = <span id="ay_bola">
+                        <input type="text">
+                    </span></p>
+                    <p>a = <span id="ay_bola">
+                        <input type="text">
+                    </span></p>
+                </div>
+                <div>
+                    <h3>Distância percorrida pelo Robo até o momento da interceptação</h3>
+                    <p>ax = <span id="ax_bola">
+                        <input type="text">
+                    </span></p>
+                    <p>ay = <span id="ay_bola">
+                        <input type="text">
+                    </span></p>
+                    <p>a = <span id="ay_bola">
+                        <input type="text">
+                    </span></p>
+                </div>
+                <div>
+                    <h3>Distância percorrida pela bola até o momento da interceptação</h3>
+                    <p>ax = <span id="ax_bola">
+                        <input type="text">
+                    </span></p>
+                    <p>ay = <span id="ay_bola">
+                        <input type="text">
+                    </span></p>
+                    <p>a = <span id="ay_bola">
+                        <input type="text">
+                    </span></p>
+                </div>
             </div>
         </section>
         
@@ -81,7 +170,7 @@
         <h3>
             Trabalho feito por:
         </h3>
-        <ul>
+        <ul class="footer">
             <li>
                 <h4>João Pedro de Figueiredo</h4>
                 <a href="#">Github</a>

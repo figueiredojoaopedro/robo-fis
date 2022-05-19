@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 // modules:
-#include "./components/posicao/pos.h"
+#include ".\components\posicao\pos.h"
 
 
 int main(void){

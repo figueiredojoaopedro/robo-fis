@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&family=Montserrat:wght@400;500;600&display=swap');
+body{
+    background-color: #75E6DA;
+    margin: 0;
+    padding: 0 5rem;
+    font-family: "Montserrat", sans-serif;
+}
+.navbar-title{
+    background-color: #D4F1F4;
+    width: fit-content;
+    padding: 2rem;
+    border-radius: 2rem;
+    text-align: left;
+    font-weight: 600;
+}
+.graf-section{
+    background-color: #D4F1F4;
+    padding: 2rem;
+    border-radius: 2rem;
+    text-align: left;
+    font-weight: 600;
+    margin: 2rem 0;
+}
+.graf-title{
+    color: white;
+    background-color: #05445E;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    font-size: 28pt;
+    text-align: center;
+    margin: 1rem auto;
+}
+.graf-container{
+    display: grid;
+    margin: 2rem 0;
+    grid-template-columns: repeat(1, minmax(300px, 1fr));
+}
+.graf-canvas{
+    border: 5px solid #000000;
+    border-radius: 5px
+}
+.graficos{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+}
+.infos{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+}
+.footer{
+    text-decoration: none;
+    list-style: none;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    gap: 5rem;
+}
+li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

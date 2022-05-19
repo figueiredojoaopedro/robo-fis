@@ -1,4 +1,3 @@
-
 // esse script foi feito para retonar um array com a trajetória do robo até a bola.
 #include <stdio.h>
 #include <stdlib.h>
