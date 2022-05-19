@@ -81,4 +81,14 @@ li{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-wrap: wrap;
+}
+.navbar-list a{
+    text-decoration: none;
+    color: black;
+    background-color: #D4F1F4;
+    padding: 0.5rem 1rem;
+    font-size: 24px;
+    border-radius: 2rem;
+    font-weight: 600;
 }
